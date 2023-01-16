@@ -1,0 +1,307 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0072)file:///C:/Users/Goncalo.Martins/Desktop/Degree_Plan/Original/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+		<meta name="author" content="Goncalo Martins">
+		<meta name="description" content="Degree Audit Template Javascript">
+		<meta name="viewport" content="width=device-width, user-scalable=no"> <!-- "position: fixed" fix for Android 2.2+ -->
+		
+		<link rel="stylesheet" href="./CpE_Blank_Template_files/style.css" type="text/css" media="screen">
+		
+		<script type="text/javascript" src="./CpE_Blank_Template_files/header.js.download"></script>
+		<script type="text/javascript" src="./CpE_Blank_Template_files/redips-drag-min.js.download"></script>
+		<script type="text/javascript" src="./CpE_Blank_Template_files/script.js.download"></script>
+		
+		<title>Degree Plan Template</title>
+	
+	</head>
+	<body>
+		<h1 style="text-align:center;">CpE Degree Plan Template</h1>
+		
+		<h3>Student Name: <input id="input_name" type="text" style="width: 150px" value=""> 
+		&#8195; DU ID: <input id="input_du_id" type="text" style="width: 80px" value="">
+		&#8195; Advisor: <input id="input_advisor" type="text" style="width: 150px" value=""> 
+		&#8195; Major: <input id="input_major" type="text" style="width: 80px" value=""></h3>
+	
+		<br>
+				
+		<button type="button" title="Save Comments to a File" onclick="saveComments()">Save Comments</button>
+		<input type="file" id="picker" value="Load Comments" accept="text/plain" onchange="loadComments()">
+		
+		<button type="button" title="Save Table to a File" onclick="saveTable()">Save Table</button>
+		
+		<br>
+		<br>
+				
+		<div id="main_container">
+			<!-- tables inside this DIV could have draggable content -->
+			<div id="redips-drag">
+	
+				<!-- table header container -->
+				<div id="container_0">
+					<table id="table_header">
+						<colgroup>
+							<col width="150">
+							<col width="250">
+							<col width="250">
+							<col width="250">
+							<col width="250">
+						</colgroup>
+						<tbody>
+							<tr>
+								<td></td>
+								<td class="redips-mark dark"><b>Fall Quarter</b></td>
+								<td class="redips-mark dark"><b>Winter Quarter</b></td>
+								<td class="redips-mark dark"><b>Spring Quarter</b></td>
+								<td class="redips-mark dark"><b>Summer Quarter</b></td>
+							</tr>
+						</tbody>
+					</table>
+				</div><!-- table header container -->
+				<br>
+				
+				<!-- table 1year container -->
+				<div id="container_1">
+					<table id="table_1year">
+						<colgroup>
+							<col width="150">
+							<col width="250">
+							<col width="250">
+							<col width="250">
+							<col width="250">
+						</colgroup>
+						<tbody>							
+							<tr>
+								<td class="redips-mark dark"><b>1st Year (Freshman)</b></td>
+								<td style=""><div id="b10" class="redips-drag orange" style="font-size: 14px; border-style: solid; cursor: move;">CHEM 1010 <br>(Gen Chem)<br></div><div id="b11" class="redips-drag orange" style="font-size: 14px; border-style: solid; cursor: move;">CHEM 1240 <br>(Gen Chem Lab)<br></div><div id="a4" class="redips-drag green" style="font-size: 14px; border-style: solid; cursor: move;">ENGR 1511 <br>(Engr Connections)<br></div><div id="a1" class="redips-drag green" style="font-size: 14px; border-style: solid; cursor: move;">ENGR 1611 (4)<br>(Intro to Mechanical)<br></div><div id="c5" class="redips-drag blue" style="font-size: 14px; border-style: solid; cursor: move;">FSEM 1111</div><div id="b1" class="redips-drag orange" style="font-size: 14px; border-style: solid; cursor: move;">MATH 1951 <br>(Calculus 1)<br></div></td>
+								<td style=""><div id="a2" class="redips-drag green" style="font-size: 14px; border-style: solid; cursor: move;">ENGR 1622 <br>(Intro to Mech Sys 1)<br></div><div id="b2" class="redips-drag orange" style="font-size: 14px; border-style: solid; cursor: move;">MATH 1952 <br>(Calculus 2)<br></div><div id="b7" class="redips-drag orange" style="font-size: 14px; border-style: solid; cursor: move;">PHYS 1211 <br>(Physics 1)<br></div><div id="c7" class="redips-drag blue" style="font-size: 14px; border-style: solid; cursor: move;">WRIT 1122</div></td>
+								<td style=""><div id="a3" class="redips-drag green" style="font-size: 14px; border-style: solid; cursor: move;">ENGR 1632 <br>(Intro to Mech Sys 2)<br></div><div id="b3" class="redips-drag orange" style="font-size: 14px; border-style: solid; cursor: move;">MATH 1953 <br>(Calculus 3)<br></div><div id="b8" class="redips-drag orange" style="font-size: 14px; border-style: solid; cursor: move;">PHYS 1212 <br>(Physics 2)<br></div><div id="c8" class="redips-drag blue" style="font-size: 14px; border-style: solid; cursor: move;">WRIT 1133</div></td>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
+				</div><!-- table 1year container -->
+				<br>
+							
+				<!-- table 2year container -->
+				<div id="container_2">
+					<table id="table_2year">
+						<colgroup>
+							<col width="150">
+							<col width="250">
+							<col width="250">
+							<col width="250">
+							<col width="250">
+						</colgroup>
+						<tbody>	
+							<tr>
+								<td class="redips-mark dark"><b>2nd Year (Sophomore)</b></td>
+								<td style=""><div id="a14" class="redips-drag green" style="font-size: 14px; border-style: solid; cursor: move;">COMP 1351 <br>(Intro Prog 1)<br></div><div id="a15" class="redips-drag green" style="font-size: 14px; border-style: solid; cursor: move;">ENCE 2101 <br>(Digital Design)<br></div><div id="a17" class="redips-drag green" style="font-size: 14px; border-style: solid; cursor: move;">ENME 2510 <br>(Statics)<br></div><div id="c1" class="redips-drag blue" style="font-size: 14px; border-style: solid; cursor: move;">UCC  <input id="input_ucc_1" type="text" style="width: 80px" value="XXXX"></div><div id="b9" class="redips-drag orange" style="font-size: 14px; border-style: solid; cursor: move;">PHYS 1214 <br>(Physics 3)<br></div></td>
+								<td style=""><div id="a16" class="redips-drag green" style="font-size: 14px; border-style: solid; cursor: move;">ENEE 2012 <br>(Circuits 1)<br></div><div id="a5" class="redips-drag green" style="font-size: 14px; border-style: solid; cursor: move;">ENGR 1572 <br>(MatLab)<br></div><div id="a18" class="redips-drag green" style="font-size: 14px; border-style: solid; cursor: move;">ENME 2541 <br>(Mechanics of Materials)<br></div><div id="b4" class="redips-drag orange" style="font-size: 14px; border-style: solid; cursor: move;">MATH 2070 <br>(Diff Eqs)<br></div><div id="c2" class="redips-drag blue" style="font-size: 14px; border-style: solid; cursor: move;">UCC  <input id="input_ucc_2" type="text" style="width: 80px" value="XXXX"></div></td>
+								<td style=""><div id="d2" class="redips-drag white" style="font-size: 14px; border-style: solid; cursor: move;">ENEE 2022 <br>(Circuits 2)<br></div><div id="a6" class="redips-drag green" style="font-size: 14px; border-style: solid; cursor: move;">ENGR 2950 <br>(Engr Assessment 1)<br></div><div id="d1" class="redips-drag white" style="font-size: 14px; border-style: solid; cursor: move;">ENGR 3100 <br>(Inst and Data Acq.)<br></div><div id="b5" class="redips-drag orange" style="font-size: 14px; border-style: solid; cursor: move;">MATH 2080 <br>(Calc Several Vars)<br></div><div id="d10" class="redips-drag white" style="font-size: 14px; border-style: solid; cursor: move;">COMP 1352 <br>(Intro Prog 2)<br></div></td>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
+				</div><!-- table 2year container -->
+				<br>
+							
+				<!-- table 3year container -->
+				<div id="container_3">
+					<table id="table_3year">
+						<colgroup>
+							<col width="150">
+							<col width="250">
+							<col width="250">
+							<col width="250">
+							<col width="250">
+						</colgroup>
+						<tbody>
+							<tr>
+								<td class="redips-mark dark"><b>3rd Year (Junior)</b></td>
+								<td style=""><div id="d5" class="redips-drag white" style="font-size: 14px; border-style: solid; cursor: move;">ENCE 3100 <br>(Adv Digital Design)<br></div><div id="d3" class="redips-drag white" style="font-size: 14px; border-style: solid; cursor: move;">ENEE 2211 <br>(Electronics)<br></div><div id="d4" class="redips-drag white" style="font-size: 14px; border-style: solid; cursor: move;">ENEE 3111 <br>(Signals and Sys)<br></div><div id="d11" class="redips-drag white" style="font-size: 14px; border-style: solid; cursor: move;">COMP 1353 <br>(Intro Prog 3)<br></div></td>
+								<td style=""><div id="c3" class="redips-drag blue" style="font-size: 14px; border-style: solid; cursor: move;">UCC  <input id="input_ucc_3" type="text" style="width: 80px" value="XXXX"></div><div id="d7" class="redips-drag white" style="font-size: 14px; border-style: solid; cursor: move;">ENCE 3210 <br>(Microprocessors 1)<br></div><div id="a9" class="redips-drag green" style="font-size: 14px; border-style: solid; cursor: move;">ENGR 2610 <br>(Integration 1)<br></div><div id="b6" class="redips-drag orange" style="font-size: 14px; border-style: solid; cursor: move;">ENGR 3650 <br>(Prob and Stats)<br></div></td>
+								<td style=""><div id="d12" class="redips-drag white" style="font-size: 14px; border-style: solid; cursor: move;">COMP 2300 <br>(Discrete Struct)<br></div><div id="d8" class="redips-drag white" style="font-size: 14px; border-style: solid; cursor: move;">ENCE 3231 <br>(Embed Systems)<br></div><div id="d6" class="redips-drag white" style="font-size: 14px; border-style: solid; cursor: move;">ENCE 3260 <br>(Python ENGR)<br></div><div id="a10" class="redips-drag green" style="font-size: 14px; border-style: solid; cursor: move;">ENGR 2620 <br>(Integration 2)<br></div><div id="d13" class="redips-drag white" style="font-size: 14px; border-style: solid; cursor: move;">COMP 2361 <br>(Systems 1)<br></div></td>
+								<td style=""></td>
+							</tr>
+						</tbody>
+					</table>
+				</div><!-- table 3year container -->
+				<br>
+				
+				<!-- table 4year container -->
+				<div id="container_4">
+					<table id="table_4year">
+						<colgroup>
+							<col width="150">
+							<col width="250">
+							<col width="250">
+							<col width="250">
+							<col width="250">
+						</colgroup>
+						<tbody>
+							<tr>
+								<td class="redips-mark dark"><b>4th Year (Senior)</b></td>
+								<td style=""><div id="b12" class="redips-drag orange" style="font-size: 14px; border-style: solid; cursor: move;">MATH/SCI <input id="input_math_sci" type="text" style="width: 80px" value="XXXX"></div><div id="d9" class="redips-drag white" style="font-size: 14px; border-style: solid; cursor: move;">ENCE 3501 <br>(VLSI)<br></div><div id="a11" class="redips-drag green" style="font-size: 14px; border-style: solid; cursor: move;">ENGR 3313 <br>(Senior Design 1)<br></div><div id="d15" class="redips-drag white" style="font-size: 14px; border-style: solid; cursor: move;">TECH <input id="input_tech_1" type="text" style="width: 80px" value="XXXX"></div><div id="d14" class="redips-drag white" style="font-size: 14px; border-style: solid; cursor: move;">COMP 2362 <br>(Systems 2)<br></div></td>
+								<td style=""><div id="c6" class="redips-drag blue" style="font-size: 14px; border-style: solid; cursor: move;">ASEM <input id="input_asem" type="text" style="width: 80px" value="2XXX"></div><div id="a12" class="redips-drag green" style="font-size: 14px; border-style: solid; cursor: move;">ENGR 3323 <br>(Senior Design 2)<br></div><div id="e1" class="redips-drag purple" style="font-size: 14px; border-style: solid; cursor: move;">LGST <input id="input_lgst" type="text" style="width: 80px" value="XXXX"></div><div id="d16" class="redips-drag white" style="font-size: 14px; border-style: solid; cursor: move;">TECH <input id="input_tech_2" type="text" style="width: 80px" value="XXXX"></div></td>
+								<td style=""><div id="c4" class="redips-drag blue" style="font-size: 14px; border-style: solid; cursor: move;">UCC  <input id="input_ucc_4" type="text" style="width: 80px" value="XXXX"></div><div id="a13" class="redips-drag green" style="font-size: 14px; border-style: solid; cursor: move;">ENGR 3333 <br>(Senior Design 3)<br></div><div id="a7" class="redips-drag green" style="font-size: 14px; border-style: solid; cursor: move;">ENGR 2951 <br>(Engr Assessment 2)<br></div><div id="a8" class="redips-drag green" style="font-size: 14px; border-style: solid; cursor: move;">ENGR 2910 <br>(Econ for Engr)<br></div><div id="d17" class="redips-drag white" style="font-size: 14px; border-style: solid; cursor: move;">TECH <input id="input_tech_3" type="text" style="width: 80px" value="XXXX"></div></td>
+								<td style=""></td>
+							</tr>
+						</tbody>
+					</table>
+				</div><!-- table 4year container -->
+				<br>
+				<br>
+				
+				<!-- additional container -->
+				<div id="container_5">
+					<table id="table_additional">
+						<colgroup>
+							<col width="150">
+							<col width="250">
+							<col width="250">
+							<col width="250">
+							<col width="250">
+						</colgroup>
+						<tbody>
+							<tr>
+								<td class="redips-mark dark"><b>Additional Year</b></td>
+								<td style=""></td>
+								<td style=""></td>
+								<td style=""></td>
+								<td style=""></td>
+							</tr>
+							<tr>
+								<td class="redips-mark dark"><b>To Repeat</b></td>
+								<td style=""></td>
+								<td style=""></td>
+								<td style=""></td>
+								<td style=""></td>
+							</tr>
+						</tbody>
+					</table>
+				</div><!-- additional container -->
+				<br>
+				<br>
+				
+				<h2>Comments Section</h2>
+				<!-- add a section for comments... -->
+				<textarea id="textarea_comments" name="comments_section" rows="5" cols="140"></textarea>
+				
+				<!-- table classes container -->
+				<div id="container_6">
+					<table id="table_classes">
+						<colgroup>
+							<col width="150">
+						</colgroup>
+						<tbody>
+						<!-- dummy row to make sure table doesn't change width -->
+							<tr>
+								<td class="dark" style=""><div id="aa" class="redips-drag transparent" style="font-size: 14px; border-style: solid; cursor: move;"> </div></td>
+								<td class="dark" style=""><div id="ab" class="redips-drag transparent" style="font-size: 14px; border-style: solid; cursor: move;"> </div></td>
+								<td class="dark" style=""><div id="ac" class="redips-drag transparent" style="font-size: 14px; border-style: solid; cursor: move;"> </div></td>
+								<td class="dark" style=""><div id="ad" class="redips-drag transparent" style="font-size: 14px; border-style: solid; cursor: move;"> </div></td>
+								<td class="dark" style=""><div id="ae" class="redips-drag transparent" style="font-size: 14px; border-style: solid; cursor: move;"> </div></td>
+								<td class="dark"><div id="af" class="redips-drag transparent" style="font-size: 14px; border-style: solid; cursor: move;"> </div></td>
+							</tr>
+							
+							<!-- classes to place in table -->
+							<tr>
+								<td class="dark" style=""></td>
+								<td class="dark" style=""></td>
+								<td class="dark" style=""></td>
+								<td class="dark" style=""></td>
+								<td class="dark" style=""></td>
+							</tr>
+							<tr>
+								<td class="dark" style=""></td>
+								<td class="dark" style=""></td>
+								<td class="dark" style=""></td>
+								<td class="dark" style=""></td>
+								<td class="dark" style=""></td>
+							</tr>
+							<tr>	
+								<td class="dark" style=""></td>
+								<td class="dark" style=""></td>
+								<td class="dark" style=""></td>
+							</tr>
+							<tr>
+								<td class="dark" style=""></td>
+								<td class="dark" style=""></td>
+								<td class="dark" style=""></td>
+								<td class="dark" style=""></td>
+								<td class="dark" style=""></td>
+							</tr>
+							<tr>
+								<td class="dark" style=""></td>
+								<td class="dark" style=""></td>
+								<td class="dark" style=""></td>
+								<td class="dark" style=""></td>
+								<td class="dark" style=""></td>
+							</tr>
+							<tr>
+								<td class="dark" style=""></td>
+							</tr>
+							<tr>
+								<td class="dark" style=""></td>
+								<td class="dark" style=""></td>
+								<td class="dark" style=""></td>
+							</tr>
+							<tr>
+								<td class="dark" style=""></td>
+								<td class="dark" style=""></td>
+							</tr>
+							<tr>
+								<td class="dark" style=""></td>
+							</tr>
+							<tr>
+								<td class="dark" style=""></td>
+								<td class="dark" style=""></td>
+								<td class="dark" style=""></td>
+								<td class="dark" style=""></td>
+								<td class="dark" style=""></td>
+							</tr>
+							<tr>	
+								<td class="dark" style=""></td>
+								<td class="dark" style=""></td>
+								<td class="dark" style=""></td>
+							</tr>
+							<tr>
+								<td class="dark" style=""></td>
+							</tr>
+							<tr>
+								<td class="dark" style=""></td>
+								<td class="dark" style=""></td>
+								<td class="dark" style=""></td>
+							</tr>
+							<tr>
+								<td class="dark" style=""></td>
+								<td class="dark" style=""></td>
+								<td class="dark" style=""></td>
+								<td class="dark" style=""></td>
+								<td class="dark" style=""></td>
+							</tr>
+							<tr>
+								<td class="dark" style=""></td>
+								<td class="dark" style=""></td>
+								<td class="dark" style=""></td>
+								<td class="dark" style=""></td>
+								<td class="dark" style=""></td>
+							</tr>
+							<tr>
+								<td class="dark" style=""></td>
+								<td class="dark" style=""></td>
+								<td class="dark" style=""></td>
+							</tr>
+							<tr>
+								<td class="dark" style=""></td>								
+							</tr>
+						</tbody>
+					</table>
+				</div><!-- table classes container -->
+				
+			<div id="redips_clone" style="height: 1px; width: 1px;"></div></div><!-- drag container -->
+			
+		</div><!-- main container -->
+		
+	
+</body></html>

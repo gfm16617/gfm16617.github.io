@@ -1,0 +1,276 @@
+/* eslint-env browser */
+/* eslint
+   semi: ["error", "always"],
+   indent: [2, "tab"],
+   no-tabs: 0,
+   no-multiple-empty-lines: ["error", {"max": 2, "maxEOF": 1}],
+   one-var: ["error", "always"] */
+/* global REDIPS */
+
+/* enable strict mode */
+'use strict';
+
+let redips = {},		// redips container
+	pos = {},			// initial positions of DIV elements
+	rd = REDIPS.drag;	// reference to the REDIPS.drag lib
+
+
+// redips initialization
+redips.init = function () {
+	// initialization
+	rd.init();
+	rd.dropMode = 'multiple';
+	// enable shift animation
+	rd.shift.animation = true;
+	// save initial DIV positions to "pos" object (it should go after initialization)
+	redips.startPositions();
+	
+	// in a moment when DIV element is moved, set drop_option property (multiple)
+	rd.event.moved = function () {
+		rd.dropMode = 'multiple';
+	};
+	
+	// when DIV element is double clicked return it to the initial position
+	rd.event.dblClicked = function () {
+		// set dblclicked DIV id
+		let id = rd.obj.id;
+		// move DIV element to initial position
+		rd.moveObject({
+			id: id,			// DIV element id
+			target: pos[id]	// target position
+		});
+	};
+	
+	// error handler called if error occured during loading table content
+	rd.error.loadContent = function (obj) {
+		// display error message (non blocking alert)
+		setTimeout(function () {
+			alert(obj.message + ' (error type ' + obj.type + ')');
+		}, 100);
+		// return false on first error and stop further processing
+		// return false;
+	};
+	
+	// set reference to the target table
+	redips.targetTable = document.getElementById('table1');
+};
+
+
+// function scans DIV elements and saves their positions to the "pos" object
+redips.startPositions = function () {
+	// define local varialbles
+	let divs, id, i, position;
+	// collect DIV elements from dragging area
+	divs = document.getElementById('redips-drag').getElementsByTagName('div');
+	// open loop for each DIV element
+	for (i = 0; i < divs.length; i++) {
+		// set DIV element id
+		id = divs[i].id;
+		// if element id is defined, then save element position
+		if (id) {
+			// set element position
+			position = rd.getPosition(divs[i]);
+			// if div has position (filter obj_new)
+			if (position.length > 0) {
+				pos[id] = position;
+			}
+		}
+	}
+};
+
+function loadComments(){
+	let selected = document.getElementById("picker").files[0];
+	let reader = new FileReader();
+	reader.addEventListener("loadend", () => { 
+		let data = reader.result; 
+		//console.log(reader.result);
+		
+		var main_split = data.split("<!----!>");
+		//console.log(main_split);
+		
+		// Parse data
+		//****************
+		var data_split = main_split[0].split(/\r\n|\n/);
+		
+		// Set Student Information
+		var info = data_split[0].split("|");
+		let text_name = document.getElementById("input_name");
+		text_name.value = info[0];
+		let text_du_id = document.getElementById("input_du_id");
+		text_du_id.value = info[1];
+		let text_advisor = document.getElementById("input_advisor");
+		text_advisor.value = info[2];
+		let text_major = document.getElementById("input_major");
+		text_major.value = info[3];
+		
+		// Set Math/Sci Input Text
+		let text_math_sci = document.getElementById("input_math_sci");
+		var value = data_split[1].split(":");
+		text_math_sci.value = value[1];
+		
+		// Set UCC1 Input Text
+		let text_ucc_1 = document.getElementById("input_ucc_1");
+		var value = data_split[2].split(":");
+		text_ucc_1.value = value[1];
+		
+		// Set UCC2 Input Text
+		let text_ucc_2 = document.getElementById("input_ucc_2");
+		var value = data_split[3].split(":");
+		text_ucc_2.value = value[1];
+		
+		// Set UCC3 Input Text
+		let text_ucc_3 = document.getElementById("input_ucc_3");
+		var value = data_split[4].split(":");
+		text_ucc_3.value = value[1];
+		
+		// Set UCC4 Input Text
+		let text_ucc_4 = document.getElementById("input_ucc_4");
+		var value = data_split[5].split(":");
+		text_ucc_4.value = value[1];
+		
+		// Set ASEM Input Text
+		let text_asem = document.getElementById("input_asem");
+		var value = data_split[6].split(":");
+		text_asem.value = value[1];
+		
+		// Set LGST Input Text
+		let text_lgst = document.getElementById("input_lgst");
+		var value = data_split[7].split(":");
+		text_lgst.value = value[1];
+		
+		// Set TECH1 Input Text
+		let text_tech_1 = document.getElementById("input_tech_1");
+		var value = data_split[8].split(":");
+		text_tech_1.value = value[1];
+		
+		// Set TECH2 Input Text
+		let text_tech_2 = document.getElementById("input_tech_2");
+		var value = data_split[9].split(":");
+		text_tech_2.value = value[1];
+		
+		// Set TECH3 Input Text
+		let text_tech_3 = document.getElementById("input_tech_3");
+		var value = data_split[10].split(":");
+		text_tech_3.value = value[1];
+		
+		// Parse Comments
+		//****************
+		// Set Comments Input Text
+		let text_comments = document.getElementById("textarea_comments");
+		text_comments.value = main_split[1];
+		
+	});
+	reader.readAsText(selected);
+};
+
+function saveComments(){
+	
+	let msg = ''
+	
+	// Get Student Information
+	var text_name = document.getElementById("input_name").value;
+	msg += text_name;
+	var text_du_id = document.getElementById("input_du_id").value;
+	msg += "|" + text_du_id;
+	var text_advisor = document.getElementById("input_advisor").value;
+	msg += "|" + text_advisor;
+	var text_major = document.getElementById("input_major").value;
+	msg += "|" + text_major + "\r\n";
+	
+	// Get Math/Sci Input Text
+	var text_math_sci = document.getElementById("input_math_sci").value;
+    //text_math_sci = text_math_sci.replace(/\n/g, "\r\n"); // To retain the Line breaks.
+	//console.log(text_math_sci)
+	msg += "MATH:" + text_math_sci + "\r\n";
+
+	// Get UCC 1 Input Text
+	var text_ucc_1 = document.getElementById("input_ucc_1").value;
+    //text_ucc_1 = text_ucc_1.replace(/\n/g, "\r\n"); // To retain the Line breaks.
+	//console.log(text_ucc_1)
+	msg += "UCC1:" + text_ucc_1 + "\r\n";
+	
+	// Get UCC 2 Input Text
+	var text_ucc_2 = document.getElementById("input_ucc_2").value;
+    //text_ucc_2 = text_ucc_2.replace(/\n/g, "\r\n"); // To retain the Line breaks.
+	//console.log(text_ucc_2)
+	msg += "UCC2:" + text_ucc_2 + "\r\n";
+	
+	// Get UCC 3 Input Text
+	var text_ucc_3 = document.getElementById("input_ucc_3").value;
+    //text_ucc_3 = text_ucc_3.replace(/\n/g, "\r\n"); // To retain the Line breaks.
+	//console.log(text_ucc_3)
+	msg += "UCC3:" + text_ucc_3 + "\r\n";
+	
+	// Get UCC 4 Input Text
+	var text_ucc_4 = document.getElementById("input_ucc_4").value;
+    //text_ucc_4 = text_ucc_4.replace(/\n/g, "\r\n"); // To retain the Line breaks.
+	//console.log(text_ucc_4)
+	msg += "UCC4:" + text_ucc_4 + "\r\n";
+	
+	// Get ASEM Input Text
+	var text_asem = document.getElementById("input_asem").value;
+    //text_asem = text_asem.replace(/\n/g, "\r\n"); // To retain the Line breaks.
+	//console.log(text_asem)
+	msg += "ASEM:" + text_asem + "\r\n";
+	
+	// Get LGST Input Text
+	var text_lgst = document.getElementById("input_lgst").value;
+    //text_lgst = text_lgst.replace(/\n/g, "\r\n"); // To retain the Line breaks.
+	//console.log(text_lgst)
+	msg += "LGST:" + text_lgst + "\r\n";
+	
+	// Get Tech 1 Input Text
+	var text_tech_1 = document.getElementById("input_tech_1").value;
+    //text_tech_1 = text_tech_1.replace(/\n/g, "\r\n"); // To retain the Line breaks.
+	//console.log(text_tech_1)
+	msg += "TECH1:" + text_tech_1 + "\r\n";
+	
+	// Get Tech 2 Input Text
+	var text_tech_2 = document.getElementById("input_tech_2").value;
+    //text_tech_2 = text_tech_2.replace(/\n/g, "\r\n"); // To retain the Line breaks.
+	//console.log(text_tech_2)
+	msg += "TECH2:" +text_tech_2 + "\r\n";
+	
+	// Get Tech 3 Input Text
+	var text_tech_3 = document.getElementById("input_tech_3").value;
+    //text_tech_3 = text_tech_3.replace(/\n/g, "\r\n"); // To retain the Line breaks.
+	//console.log(text_tech_3)
+	msg += "TECH3:" +text_tech_3 + "\r\n";
+	
+	msg += "<!----!>" + "\r\n";
+	
+    var text_comments = document.getElementById("textarea_comments").value;
+    //text_comments = text_comments.replace(/\n/g, "\r\n"); // To retain the Line breaks.
+	//console.log(text_comments)
+	msg += text_comments + "\r\n";
+	
+	// Check if msg was concatenated properly
+	//console.log(msg); // Debug
+	
+    var blob = new Blob([msg], { type: "text/plain"});
+	
+	// Code below is equivalent to do --> <a href="window.URL.createObjectURL(blob)" download="comments.txt" target="_blank">
+    var anchor = document.createElement("a");
+    anchor.download = "comments.txt";
+    anchor.href = window.URL.createObjectURL(blob);
+    anchor.target ="_blank";
+    anchor.style.display = "none"; // just to be safe!
+	
+	// Simulates clicking the href
+    document.body.appendChild(anchor);
+    anchor.click();
+    document.body.removeChild(anchor);
+ };
+
+function saveTable(){
+	console.log("Under Development...")
+	window.alert("Under Development... \n\r For now right click on the page and use \"Save as...\"");
+}
+
+// add onload event listener
+if (window.addEventListener) {
+	window.addEventListener('load', redips.init, false);
+}
+else if (window.attachEvent) {
+	window.attachEvent('onload', redips.init);
+}

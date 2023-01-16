@@ -1,0 +1,120 @@
+/*
+
+Darko Bunic
+http://www.redips.net/
+Feb, 2010.
+
+Changed by Goncalo Martins
+Oct, 2022.
+
+*/
+
+body {
+	font-family: arial;
+	margin: 0px; /* for IE6 / IE7 */
+}
+
+/* main container */
+#main_container {
+	/*margin: auto;*/
+	width: 420px;
+}
+
+/* drag objects (DIV elements inside table cells) */
+.redips-drag {
+	cursor: move;
+	margin: auto;
+	z-index: 10;
+	background-color: white;
+	text-align: center;
+	font-size: 25pt; /* needed for cloned object */
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+	/* without width, IE6/7 will not apply filter/opacity to the element ?! */
+	/* IE needs element layout */
+	width: 180px; /*87*/
+	height: 35px;
+	line-height: 15px; /*35*/
+	/* round corners */
+	border-radius: 4px; /* Opera, Chrome */
+	-moz-border-radius: 4px; /* FF */
+}
+
+/* drag area */
+#redips-drag {
+	display: table;
+	width: 420px;
+}
+
+/* table cells */
+div#redips-drag td {
+	height: 50px;
+	text-align: center;
+	font-size: 10pt;
+	padding: 2px;
+}
+
+/* styles tables */
+#table_header, #table_1year, #table_2year, #table_3year, #table_4year, #table_additional {
+	background-color: #eee;
+	/*border-collapse: collapse;*/
+	
+}
+	#table_header, #table_1year, #table_2year, #table_3year, #table_4year, tr{
+		border: 5px solid #DDC5B5;
+	}
+	
+	#table_additional, tr{
+		border-style: dotted;
+	}
+
+
+/* green objects */
+.green {
+	border: 3px solid #499B33;
+	background-color: #DBF2E1;
+}
+
+/* orange objects */
+.orange {
+	border: 3px solid #FF8000;
+	background-color: #FFE3C8;
+}
+
+/* blue objects */
+.blue {
+	border: 3px solid #1D1DB1;
+	background-color: #CACAF7;
+}
+
+/* purple objects */
+.purple {
+	border: 3px solid #D700D7;
+	background-color: #FFCCFF;
+}
+
+/* white objects */
+.white {
+	border: 3px solid #000000; /*black border*/
+}
+
+/* transparent objects */
+.transparent {
+	border: 3px solid #FFFFFF; /*white border*/
+}
+
+/* message line */
+#message {
+	padding: 5px;
+	color: white;
+	background-color: #aaa;
+	text-align: center;
+	margin-top: 10px;
+}
+
+
+/* cells from the right table (forbidden cells) */
+.redips-mark {
+	color: #444;
+	background-color: #e0e0e0;
+}
