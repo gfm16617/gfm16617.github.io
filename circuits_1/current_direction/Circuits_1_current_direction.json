@@ -1,0 +1,3821 @@
+{
+  "slides": [
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 304,
+          "y": 63,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 96,
+          "text": "<font face=\"Fredoka One, cursive\">Circuits 1</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 299,
+          "y": 627,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<font face=\"Fredoka One\">Use space bar to advance</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 246,
+          "y": 206,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font face=\"Fredoka One, cursive\" color=\"#7a7575\">Current direction</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 290,
+          "y": 683,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 24,
+          "text": "<font face=\"Fredoka One\">(if this is a video, ignore the space bar)</font>",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/YEZXyWw.gif",
+          "type": "Image",
+          "x": 422,
+          "y": 328,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "GIF",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 0,
+      "selected": false,
+      "active": false,
+      "x": 181,
+      "y": 148,
+      "markdown": ""
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 70,
+          "y": 101,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><span style=\"font-family: &quot;Fredoka One&quot;, cursive;\">This presentation is not about how electrons flow...</span></div>",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/miOgx6Y.gif",
+          "type": "Image",
+          "x": 107,
+          "y": 212,
+          "scale": {
+            "x": 0.7117296222664016,
+            "y": 0.7117296222664016,
+            "width": 358,
+            "height": 341.63021868787274
+          },
+          "imageType": "GIF",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/pXU2hpa.gif",
+          "type": "Image",
+          "x": 557,
+          "y": 210,
+          "scale": {
+            "x": 0.7176938369781313,
+            "y": 0.7176938369781313,
+            "width": 361.00000000000006,
+            "height": 343.05765407554674
+          },
+          "imageType": "GIF",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 168,
+          "y": 580,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><span style=\"color: rgb(122, 117, 117); font-family: &quot;Fredoka One&quot;, cursive;\">Conventional<br>Flow</span></div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 651,
+          "y": 580,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><span style=\"color: rgb(122, 117, 117); font-family: &quot;Fredoka One&quot;, cursive;\">Electron<br>Flow</span></div>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 1,
+      "selected": false,
+      "active": false,
+      "markdown": "",
+      "x": 178,
+      "y": 339
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 83,
+          "y": 101,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><span style=\"font-family: &quot;Fredoka One&quot;, cursive;\">This presentation is about understanding current&nbsp;</span></div><font face=\"Fredoka One, cursive\"><div style=\"text-align: center;\">directions in a circuit while analyzing it.</div></font>",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/RVusGnh.png",
+          "type": "Image",
+          "x": 42,
+          "y": 250,
+          "scale": {
+            "x": 0.7904040404040404,
+            "y": 0.7904040404040404,
+            "width": 626,
+            "height": 399.1540404040404
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/1Spe63O.gif",
+          "type": "Image",
+          "x": 203,
+          "y": 404,
+          "scale": {
+            "x": 0.25,
+            "y": 0.25,
+            "width": 120,
+            "height": 90.25
+          },
+          "imageType": "GIF",
+          "selected": false,
+          "rotate": 1.56
+        },
+        {
+          "src": "https://i.imgur.com/1Spe63O.gif",
+          "type": "Image",
+          "x": 334,
+          "y": 386,
+          "scale": {
+            "x": 0.25,
+            "y": 0.25,
+            "width": 120,
+            "height": 90.25
+          },
+          "imageType": "GIF",
+          "selected": false,
+          "rotate": -1.56
+        },
+        {
+          "src": "https://i.imgur.com/5jHyfBy.png",
+          "type": "Image",
+          "x": 916,
+          "y": 388,
+          "scale": {
+            "x": 0.44565217391304346,
+            "y": 0.44565217391304346,
+            "width": 82,
+            "height": 83.78260869565217
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 709,
+          "y": 277,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><font color=\"#7a7575\" face=\"Fredoka One, cursive\">Which direction <br>should we pick ?</font></div>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 2,
+      "selected": false,
+      "active": false,
+      "x": 450,
+      "y": 165
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 235,
+          "y": 44,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><font face=\"Fredoka One, cursive\"><b style=\"\">Before answering that question, <br>let's review a couple of rules...</b></font></div>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 3,
+      "selected": false,
+      "active": false,
+      "x": 457,
+      "y": 357
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 88,
+          "y": 28,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><font face=\"Fredoka One, cursive\">The sum of currents entering a node...<br>is equal to the sum of currents leaving the node.</font></div>",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/NPuQhg9.png",
+          "type": "Image",
+          "x": 61,
+          "y": 159,
+          "scale": {
+            "x": 0.14419538307126134,
+            "y": 0.14419538307126134,
+            "width": 431.00000000000017,
+            "height": 286.0836400133825
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/g3voLX0.png",
+          "type": "Image",
+          "x": 42,
+          "y": 516,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 543,
+          "y": 209,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><font face=\"Fredoka One, cursive\" color=\"#7a7575\">Kirchhoff's Current Law<br>&nbsp;(KCL)</font></div>",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/UwzyDcU.png",
+          "type": "Image",
+          "x": 640,
+          "y": 328,
+          "scale": {
+            "x": 0.7622377622377622,
+            "y": 0.7622377622377622,
+            "width": 217.99999999999997,
+            "height": 150.9230769230769
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 1,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 4,
+      "selected": false,
+      "active": false,
+      "x": 397,
+      "y": 352
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 320,
+          "y": 40,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><font face=\"Fredoka One, cursive\">Passive Sign Convention</font></div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 19,
+          "y": 146,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><font color=\"#7a7575\" face=\"Fredoka One, cursive\">Current entering <br>the positive terminal...</font></div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 594,
+          "y": 143,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><font color=\"#7a7575\" face=\"Fredoka One, cursive\">Current entering <br>the negative terminal...</font></div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 130,
+          "y": 402,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><font color=\"#7a7575\" face=\"Fredoka One, cursive\">... has a positive&nbsp;</font></div><div style=\"text-align: center;\"><font color=\"#7a7575\" face=\"Fredoka One, cursive\">voltage drop.</font></div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 716,
+          "y": 386,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><font color=\"#7a7575\" face=\"Fredoka One, cursive\">... has a negative&nbsp;</font></div><div style=\"text-align: center;\"><font color=\"#7a7575\" face=\"Fredoka One, cursive\">voltage drop.</font></div>",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/5W1jNjg.png",
+          "type": "Image",
+          "x": -86,
+          "y": 243,
+          "scale": {
+            "x": 0.916256157635468,
+            "y": 0.916256157635468,
+            "width": 186,
+            "height": 341.76354679802955
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/ecLyK2Z.png",
+          "type": "Image",
+          "x": 506,
+          "y": 242,
+          "scale": {
+            "x": 0.9633507853403142,
+            "y": 0.9633507853403142,
+            "width": 184,
+            "height": 340.0628272251309
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/VgoqPtl.png",
+          "type": "Image",
+          "x": 55,
+          "y": 606,
+          "scale": {
+            "x": 0.662020905923345,
+            "y": 0.662020905923345,
+            "width": 190,
+            "height": 44.35540069686411
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/SK5jq2P.png",
+          "type": "Image",
+          "x": 679,
+          "y": 597,
+          "scale": {
+            "x": 0.6696165191740413,
+            "y": 0.6696165191740413,
+            "width": 227,
+            "height": 44.86430678466077
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 1,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 5,
+      "selected": false,
+      "active": false,
+      "x": 509,
+      "y": 353
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 396,
+          "y": 40,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><font face=\"Fredoka One, cursive\">KCL Example...</font></div>",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/NrvUvMG.png",
+          "type": "Image",
+          "x": 28,
+          "y": 138,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 6,
+      "selected": false,
+      "active": false,
+      "x": 718,
+      "y": 179
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 314,
+          "y": 40,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><font face=\"Fredoka One, cursive\">Passive Sign Example...</font></div>",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/xFYWsbX.png",
+          "type": "Image",
+          "x": 82,
+          "y": 143,
+          "scale": {
+            "x": 1.1768802228412256,
+            "y": 1.1768802228412256,
+            "width": 845,
+            "height": 313.050139275766
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/iopqyU5.png",
+          "type": "Image",
+          "x": 118,
+          "y": 500,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/cCDmOjk.png",
+          "type": "Image",
+          "x": 567,
+          "y": 495,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 7,
+      "selected": false,
+      "active": false,
+      "x": 734,
+      "y": 370
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 161,
+          "y": 44,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><font face=\"Fredoka One, cursive\"><b>Let's cover an example where all<br>these concepts are connected together...</b></font></div>",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/Q4rzkO0.png",
+          "type": "Image",
+          "x": 128,
+          "y": 192,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": -308,
+          "y": 314,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<font face=\"Fredoka One\" color=\"#000000\">(Circuit <a href=\"https://tinyurl.com/2mnvoy7a\">Link</a>)</font>",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/472aBks.png",
+          "type": "Image",
+          "x": -345,
+          "y": 37,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 8,
+      "selected": false,
+      "active": false,
+      "x": 1036,
+      "y": 122
+    },
+    {
+      "components": [
+        {
+          "src": "https://i.imgur.com/Q4rzkO0.png",
+          "type": "Image",
+          "x": 128,
+          "y": 192,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 195,
+          "y": 44,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><font face=\"Fredoka One, cursive\"><b>Notice there are no signs or currents <br>assigned in this circuit...</b></font></div>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0.79,
+      "index": 9,
+      "selected": false,
+      "active": false,
+      "x": 1335,
+      "y": 145
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 127,
+          "y": 44,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><font face=\"Fredoka One, cursive\"><b>Pick any direction of current that you want...</b></font></div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 366,
+          "y": 103,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><font color=\"#7a7575\" face=\"Fredoka One, cursive\">Don't overthink...</font></div>",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/Q4rzkO0.png",
+          "type": "Image",
+          "x": 128,
+          "y": 192,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/1Spe63O.gif",
+          "type": "Image",
+          "x": 178,
+          "y": 174,
+          "scale": {
+            "x": 0.25,
+            "y": 0.25,
+            "width": 120,
+            "height": 90.25
+          },
+          "imageType": "GIF",
+          "selected": false,
+          "rotate": -0.02
+        },
+        {
+          "src": "https://i.imgur.com/1Spe63O.gif",
+          "type": "Image",
+          "x": 656,
+          "y": 190,
+          "scale": {
+            "x": 0.25,
+            "y": 0.25,
+            "width": 120,
+            "height": 90.25
+          },
+          "imageType": "GIF",
+          "selected": false,
+          "rotate": -3.15
+        },
+        {
+          "src": "https://i.imgur.com/1Spe63O.gif",
+          "type": "Image",
+          "x": 484,
+          "y": 454,
+          "scale": {
+            "x": 0.25,
+            "y": 0.25,
+            "width": 120,
+            "height": 90.25
+          },
+          "imageType": "GIF",
+          "selected": false,
+          "rotate": 1.56
+        },
+        {
+          "src": "https://i.imgur.com/ol9m6El.png",
+          "type": "Image",
+          "x": 770,
+          "y": 227,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/N0ibaBp.png",
+          "type": "Image",
+          "x": 586,
+          "y": 459,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/uNjwPmq.png",
+          "type": "Image",
+          "x": 144,
+          "y": 232,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0.79,
+      "index": 10,
+      "selected": false,
+      "active": false,
+      "x": 1276,
+      "y": 327
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 152,
+          "y": 44,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><font face=\"Fredoka One, cursive\"><b>There are a lot of possible combinations...</b></font></div>",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/GBrJ01K.png",
+          "type": "Image",
+          "x": -276,
+          "y": 199,
+          "scale": {
+            "x": 1.2511848341232228,
+            "y": 1.2511848341232228,
+            "width": 1584,
+            "height": 515.4881516587678
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 192,
+          "y": 103,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><font color=\"#7a7575\" face=\"Fredoka One, cursive\">But they will all give the same result.</font></div>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0.79,
+      "index": 11,
+      "selected": false,
+      "active": false,
+      "x": 1223,
+      "y": 533
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 207,
+          "y": 44,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><font face=\"Fredoka One, cursive\"><b>Let's get back to this configuration.</b></font></div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 199,
+          "y": 103,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><font color=\"#7a7575\" face=\"Fredoka One, cursive\">Assign + and - around the resistors...</font></div>",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/1Spe63O.gif",
+          "type": "Image",
+          "x": 347,
+          "y": 369,
+          "scale": {
+            "x": 0.25,
+            "y": 0.25,
+            "width": 120,
+            "height": 90.25
+          },
+          "imageType": "GIF",
+          "selected": false,
+          "rotate": 1.56
+        },
+        {
+          "src": "https://i.imgur.com/1Spe63O.gif",
+          "type": "Image",
+          "x": 546,
+          "y": 293,
+          "scale": {
+            "x": 0.25,
+            "y": 0.25,
+            "width": 120,
+            "height": 90.25
+          },
+          "imageType": "GIF",
+          "selected": false,
+          "rotate": -3.15
+        },
+        {
+          "src": "https://i.imgur.com/1Spe63O.gif",
+          "type": "Image",
+          "x": 178,
+          "y": 174,
+          "scale": {
+            "x": 0.25,
+            "y": 0.25,
+            "width": 120,
+            "height": 90.25
+          },
+          "imageType": "GIF",
+          "selected": false,
+          "rotate": -0.02
+        },
+        {
+          "src": "https://i.imgur.com/Q4rzkO0.png",
+          "type": "Image",
+          "x": 128,
+          "y": 195.91836734693877,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/1Spe63O.gif",
+          "type": "Image",
+          "x": 198,
+          "y": 194,
+          "scale": {
+            "x": 0.25,
+            "y": 0.25,
+            "width": 120,
+            "height": 90.25
+          },
+          "imageType": "GIF",
+          "selected": false,
+          "rotate": -0.02
+        },
+        {
+          "src": "https://i.imgur.com/1Spe63O.gif",
+          "type": "Image",
+          "x": 656,
+          "y": 190,
+          "scale": {
+            "x": 0.25,
+            "y": 0.25,
+            "width": 120,
+            "height": 90.25
+          },
+          "imageType": "GIF",
+          "selected": false,
+          "rotate": -3.15
+        },
+        {
+          "src": "https://i.imgur.com/1Spe63O.gif",
+          "type": "Image",
+          "x": 484,
+          "y": 454,
+          "scale": {
+            "x": 0.25,
+            "y": 0.25,
+            "width": 120,
+            "height": 90.25
+          },
+          "imageType": "GIF",
+          "selected": false,
+          "rotate": 1.56
+        },
+        {
+          "src": "https://i.imgur.com/ol9m6El.png",
+          "type": "Image",
+          "x": 770,
+          "y": 227,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/N0ibaBp.png",
+          "type": "Image",
+          "x": 586,
+          "y": 459,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/uNjwPmq.png",
+          "type": "Image",
+          "x": 144,
+          "y": 232,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 12,
+      "selected": false,
+      "active": false,
+      "x": 1651,
+      "y": 122
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 115,
+          "y": 44,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><font face=\"Fredoka One, cursive\"><b>Once again, pick whatever direction you want.</b></font></div>",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/Q4rzkO0.png",
+          "type": "Image",
+          "x": 128,
+          "y": 192,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 421,
+          "y": 311,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font face=\"Fredoka One\" color=\"#f52222\">+</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 279,
+          "y": 267,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font face=\"Fredoka One\" color=\"#f52222\">+</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 661,
+          "y": 267,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font face=\"Fredoka One\" color=\"#f52222\">+</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 424,
+          "y": 429,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font face=\"Fredoka One\" color=\"#f52222\">-</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 403,
+          "y": 263,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font face=\"Fredoka One\" color=\"#f52222\">-</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 525,
+          "y": 267,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font face=\"Fredoka One\" color=\"#f52222\">-</font>",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/1Spe63O.gif",
+          "type": "Image",
+          "x": 178,
+          "y": 174,
+          "scale": {
+            "x": 0.25,
+            "y": 0.25,
+            "width": 120,
+            "height": 90.25
+          },
+          "imageType": "GIF",
+          "selected": false,
+          "rotate": -0.02
+        },
+        {
+          "src": "https://i.imgur.com/1Spe63O.gif",
+          "type": "Image",
+          "x": 656,
+          "y": 190,
+          "scale": {
+            "x": 0.25,
+            "y": 0.25,
+            "width": 120,
+            "height": 90.25
+          },
+          "imageType": "GIF",
+          "selected": false,
+          "rotate": -3.15
+        },
+        {
+          "src": "https://i.imgur.com/1Spe63O.gif",
+          "type": "Image",
+          "x": 484,
+          "y": 454,
+          "scale": {
+            "x": 0.25,
+            "y": 0.25,
+            "width": 120,
+            "height": 90.25
+          },
+          "imageType": "GIF",
+          "selected": false,
+          "rotate": 1.56
+        },
+        {
+          "src": "https://i.imgur.com/ol9m6El.png",
+          "type": "Image",
+          "x": 770,
+          "y": 227,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/N0ibaBp.png",
+          "type": "Image",
+          "x": 586,
+          "y": 459,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/uNjwPmq.png",
+          "type": "Image",
+          "x": 144,
+          "y": 232,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/N0ibaBp.png",
+          "type": "Image",
+          "x": 606,
+          "y": 479,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/9wZ2ddr.png",
+          "type": "Image",
+          "x": 338,
+          "y": 303,
+          "scale": {
+            "x": 0.6617647058823529,
+            "y": 0.6617647058823529,
+            "width": 45,
+            "height": 44.338235294117645
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/MwvxbgN.png",
+          "type": "Image",
+          "x": 591,
+          "y": 303,
+          "scale": {
+            "x": 0.5882352941176471,
+            "y": 0.5882352941176471,
+            "width": 40,
+            "height": 39.411764705882355
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/y3slllk.png",
+          "type": "Image",
+          "x": 389,
+          "y": 397,
+          "scale": {
+            "x": 0.6470588235294118,
+            "y": 0.6470588235294118,
+            "width": 44,
+            "height": 43.35294117647059
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 366,
+          "y": 103,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><font color=\"#7a7575\" face=\"Fredoka One, cursive\">Don't overthink...</font></div>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0.79,
+      "index": 13,
+      "selected": false,
+      "active": false,
+      "x": 1972,
+      "y": 150
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 162,
+          "y": 44,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><font face=\"Fredoka One, cursive\"><b>From now on, apply KCL and passive sign<br>to get the equations out of the circuit.</b></font></div>",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/Q4rzkO0.png",
+          "type": "Image",
+          "x": 128,
+          "y": 192,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/1Spe63O.gif",
+          "type": "Image",
+          "x": 178,
+          "y": 174,
+          "scale": {
+            "x": 0.25,
+            "y": 0.25,
+            "width": 120,
+            "height": 90.25
+          },
+          "imageType": "GIF",
+          "selected": false,
+          "rotate": -0.02
+        },
+        {
+          "TextBox": {},
+          "x": 279,
+          "y": 267,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font face=\"Fredoka One\" color=\"#f52222\">+</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 403,
+          "y": 263,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font face=\"Fredoka One\" color=\"#f52222\">-</font>",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/1Spe63O.gif",
+          "type": "Image",
+          "x": 484,
+          "y": 454,
+          "scale": {
+            "x": 0.25,
+            "y": 0.25,
+            "width": 120,
+            "height": 90.25
+          },
+          "imageType": "GIF",
+          "selected": false,
+          "rotate": 1.56
+        },
+        {
+          "src": "https://i.imgur.com/1Spe63O.gif",
+          "type": "Image",
+          "x": 656,
+          "y": 190,
+          "scale": {
+            "x": 0.25,
+            "y": 0.25,
+            "width": 120,
+            "height": 90.25
+          },
+          "imageType": "GIF",
+          "selected": false,
+          "rotate": -3.15
+        },
+        {
+          "TextBox": {},
+          "x": 424,
+          "y": 430,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font face=\"Fredoka One\" color=\"#f52222\">-</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 526,
+          "y": 266,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font face=\"Fredoka One\" color=\"#f52222\">-</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 661,
+          "y": 267,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font face=\"Fredoka One\" color=\"#f52222\">+</font>",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/uNjwPmq.png",
+          "type": "Image",
+          "x": 144,
+          "y": 232,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/N0ibaBp.png",
+          "type": "Image",
+          "x": 586,
+          "y": 459,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/ol9m6El.png",
+          "type": "Image",
+          "x": 770,
+          "y": 227,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/9wZ2ddr.png",
+          "type": "Image",
+          "x": 338,
+          "y": 303,
+          "scale": {
+            "x": 0.6617647058823529,
+            "y": 0.6617647058823529,
+            "width": 45,
+            "height": 44.338235294117645
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/y3slllk.png",
+          "type": "Image",
+          "x": 389,
+          "y": 397,
+          "scale": {
+            "x": 0.6470588235294118,
+            "y": 0.6470588235294118,
+            "width": 44,
+            "height": 43.35294117647059
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/MwvxbgN.png",
+          "type": "Image",
+          "x": 591,
+          "y": 303,
+          "scale": {
+            "x": 0.5882352941176471,
+            "y": 0.5882352941176471,
+            "width": 40,
+            "height": 39.411764705882355
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 421,
+          "y": 311,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font face=\"Fredoka One\" color=\"#f52222\">+</font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0.79,
+      "index": 14,
+      "selected": false,
+      "active": false,
+      "x": 1935,
+      "y": 373
+    },
+    {
+      "components": [
+        {
+          "src": "https://i.imgur.com/Q4rzkO0.png",
+          "type": "Image",
+          "x": -317,
+          "y": 213,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/uNjwPmq.png",
+          "type": "Image",
+          "x": -301,
+          "y": 253,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/1Spe63O.gif",
+          "type": "Image",
+          "x": -267,
+          "y": 195,
+          "scale": {
+            "x": 0.25,
+            "y": 0.25,
+            "width": 120,
+            "height": 90.25
+          },
+          "imageType": "GIF",
+          "selected": false,
+          "rotate": -0.02
+        },
+        {
+          "src": "https://i.imgur.com/N0ibaBp.png",
+          "type": "Image",
+          "x": 141,
+          "y": 480,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/1Spe63O.gif",
+          "type": "Image",
+          "x": 211,
+          "y": 211,
+          "scale": {
+            "x": 0.25,
+            "y": 0.25,
+            "width": 120,
+            "height": 90.25
+          },
+          "imageType": "GIF",
+          "selected": false,
+          "rotate": -3.15
+        },
+        {
+          "src": "https://i.imgur.com/ol9m6El.png",
+          "type": "Image",
+          "x": 325,
+          "y": 248,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/1Spe63O.gif",
+          "type": "Image",
+          "x": 39,
+          "y": 475,
+          "scale": {
+            "x": 0.25,
+            "y": 0.25,
+            "width": 120,
+            "height": 90.25
+          },
+          "imageType": "GIF",
+          "selected": false,
+          "rotate": 1.56
+        },
+        {
+          "TextBox": {},
+          "x": 70,
+          "y": 23,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><font face=\"Fredoka One, cursive\"><b>KCL @ A:&nbsp;</b></font></div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 26,
+          "y": 230,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><font face=\"Fredoka One, cursive\" color=\"#eeeeee\"><b style=\"\">A</b></font></div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": -166,
+          "y": 288,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font face=\"Fredoka One\" color=\"#f52222\">+</font>",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/9wZ2ddr.png",
+          "type": "Image",
+          "x": -107,
+          "y": 324,
+          "scale": {
+            "x": 0.6617647058823529,
+            "y": 0.6617647058823529,
+            "width": 45,
+            "height": 44.338235294117645
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": -42,
+          "y": 284,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font face=\"Fredoka One\" color=\"#f52222\">-</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": -24,
+          "y": 332,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font face=\"Fredoka One\" color=\"#f52222\">+</font>",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/y3slllk.png",
+          "type": "Image",
+          "x": -56,
+          "y": 418,
+          "scale": {
+            "x": 0.6470588235294118,
+            "y": 0.6470588235294118,
+            "width": 44,
+            "height": 43.35294117647059
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": -21,
+          "y": 451,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font face=\"Fredoka One\" color=\"#f52222\">-</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 81,
+          "y": 287,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font face=\"Fredoka One\" color=\"#f52222\">-</font>",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/MwvxbgN.png",
+          "type": "Image",
+          "x": 146,
+          "y": 324,
+          "scale": {
+            "x": 0.5882352941176471,
+            "y": 0.5882352941176471,
+            "width": 40,
+            "height": 39.411764705882355
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 216,
+          "y": 288,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font face=\"Fredoka One\" color=\"#f52222\">+</font>",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/ofjhXyo.png",
+          "type": "Image",
+          "x": 131,
+          "y": 94,
+          "scale": {
+            "x": 0.6753623188405797,
+            "y": 0.6753623188405797,
+            "width": 233,
+            "height": 45.24927536231884
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/2A1P9M1.png",
+          "type": "Image",
+          "x": 516,
+          "y": 86,
+          "scale": {
+            "x": 0.5922865013774105,
+            "y": 0.5922865013774105,
+            "width": 215,
+            "height": 39.6831955922865
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 469,
+          "y": 19,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><font face=\"Fredoka One, cursive\"><b>Ohm's Law:</b></font></div>",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/o30dRDV.png",
+          "type": "Image",
+          "x": 518,
+          "y": 150,
+          "scale": {
+            "x": 0.5639686684073107,
+            "y": 0.5639686684073107,
+            "width": 216.00000000000003,
+            "height": 37.78590078328982
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/bqnCL4f.png",
+          "type": "Image",
+          "x": 520,
+          "y": 216,
+          "scale": {
+            "x": 0.6344410876132931,
+            "y": 0.6344410876132931,
+            "width": 210.00000000000003,
+            "height": 42.507552870090635
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 484,
+          "y": 309,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><font face=\"Fredoka One, cursive\"><b>Differential of Potential:</b></font></div>",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/UCg3lud.png",
+          "type": "Image",
+          "x": 536,
+          "y": 380,
+          "scale": {
+            "x": 0.6780626780626781,
+            "y": 0.6780626780626781,
+            "width": 238,
+            "height": 45.43019943019943
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/OSmVLZ3.png",
+          "type": "Image",
+          "x": 531,
+          "y": 454,
+          "scale": {
+            "x": 0.7008547008547008,
+            "y": 0.7008547008547008,
+            "width": 245.99999999999997,
+            "height": 46.957264957264954
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0.79,
+      "index": 15,
+      "selected": false,
+      "active": false,
+      "x": 1910,
+      "y": 601
+    },
+    {
+      "components": [
+        {
+          "src": "https://i.imgur.com/Q4rzkO0.png",
+          "type": "Image",
+          "x": -317,
+          "y": 213,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/uNjwPmq.png",
+          "type": "Image",
+          "x": -301,
+          "y": 253,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/1Spe63O.gif",
+          "type": "Image",
+          "x": -267,
+          "y": 195,
+          "scale": {
+            "x": 0.25,
+            "y": 0.25,
+            "width": 120,
+            "height": 90.25
+          },
+          "imageType": "GIF",
+          "selected": false,
+          "rotate": -0.02
+        },
+        {
+          "src": "https://i.imgur.com/N0ibaBp.png",
+          "type": "Image",
+          "x": 141,
+          "y": 480,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/1Spe63O.gif",
+          "type": "Image",
+          "x": 211,
+          "y": 211,
+          "scale": {
+            "x": 0.25,
+            "y": 0.25,
+            "width": 120,
+            "height": 90.25
+          },
+          "imageType": "GIF",
+          "selected": false,
+          "rotate": -3.15
+        },
+        {
+          "src": "https://i.imgur.com/ol9m6El.png",
+          "type": "Image",
+          "x": 325,
+          "y": 248,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/1Spe63O.gif",
+          "type": "Image",
+          "x": 39,
+          "y": 475,
+          "scale": {
+            "x": 0.25,
+            "y": 0.25,
+            "width": 120,
+            "height": 90.25
+          },
+          "imageType": "GIF",
+          "selected": false,
+          "rotate": 1.56
+        },
+        {
+          "TextBox": {},
+          "x": 26,
+          "y": 230,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><font face=\"Fredoka One, cursive\" color=\"#eeeeee\"><b style=\"\">A</b></font></div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": -166,
+          "y": 288,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font face=\"Fredoka One\" color=\"#f52222\">+</font>",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/9wZ2ddr.png",
+          "type": "Image",
+          "x": -107,
+          "y": 324,
+          "scale": {
+            "x": 0.6617647058823529,
+            "y": 0.6617647058823529,
+            "width": 45,
+            "height": 44.338235294117645
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": -42,
+          "y": 284,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font face=\"Fredoka One\" color=\"#f52222\">-</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": -24,
+          "y": 332,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font face=\"Fredoka One\" color=\"#f52222\">+</font>",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/y3slllk.png",
+          "type": "Image",
+          "x": -56,
+          "y": 418,
+          "scale": {
+            "x": 0.6470588235294118,
+            "y": 0.6470588235294118,
+            "width": 44,
+            "height": 43.35294117647059
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": -21,
+          "y": 451,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font face=\"Fredoka One\" color=\"#f52222\">-</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 81,
+          "y": 287,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font face=\"Fredoka One\" color=\"#f52222\">-</font>",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/MwvxbgN.png",
+          "type": "Image",
+          "x": 146,
+          "y": 324,
+          "scale": {
+            "x": 0.5882352941176471,
+            "y": 0.5882352941176471,
+            "width": 40,
+            "height": 39.411764705882355
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 216,
+          "y": 288,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font face=\"Fredoka One\" color=\"#f52222\">+</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 102,
+          "y": 44,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><font face=\"Fredoka One, cursive\"><b>Substituting everything into the KCL equation...</b></font></div>",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/GLk6AYL.png",
+          "type": "Image",
+          "x": 492,
+          "y": 147,
+          "scale": {
+            "x": 0.6326530612244898,
+            "y": 0.6326530612244898,
+            "width": 465,
+            "height": 87.3061224489796
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/9VNALc6.png",
+          "type": "Image",
+          "x": 592,
+          "y": 297,
+          "scale": {
+            "x": 0.7103960396039604,
+            "y": 0.7103960396039604,
+            "width": 287,
+            "height": 47.59653465346534
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0.79,
+      "index": 16,
+      "selected": false,
+      "active": false,
+      "x": 1856,
+      "y": 807
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 290,
+          "y": 44,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><font face=\"Fredoka One, cursive\"><b>Let's do another example.</b></font></div>",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/Q4rzkO0.png",
+          "type": "Image",
+          "x": 128,
+          "y": 192,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 421,
+          "y": 311,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font face=\"Fredoka One\" color=\"#f52222\">+</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 399,
+          "y": 270,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font face=\"Fredoka One\" color=\"#f52222\">+</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 661,
+          "y": 267,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font face=\"Fredoka One\" color=\"#f52222\">+</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 424,
+          "y": 429,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font face=\"Fredoka One\" color=\"#f52222\">-</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 286,
+          "y": 267,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font face=\"Fredoka One\" color=\"#f52222\">-</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 525,
+          "y": 267,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font face=\"Fredoka One\" color=\"#f52222\">-</font>",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/1Spe63O.gif",
+          "type": "Image",
+          "x": 178,
+          "y": 174,
+          "scale": {
+            "x": 0.25,
+            "y": 0.25,
+            "width": 120,
+            "height": 90.25
+          },
+          "imageType": "GIF",
+          "selected": false,
+          "rotate": -0.02
+        },
+        {
+          "src": "https://i.imgur.com/1Spe63O.gif",
+          "type": "Image",
+          "x": 656,
+          "y": 190,
+          "scale": {
+            "x": 0.25,
+            "y": 0.25,
+            "width": 120,
+            "height": 90.25
+          },
+          "imageType": "GIF",
+          "selected": false,
+          "rotate": -3.15
+        },
+        {
+          "src": "https://i.imgur.com/1Spe63O.gif",
+          "type": "Image",
+          "x": 484,
+          "y": 454,
+          "scale": {
+            "x": 0.25,
+            "y": 0.25,
+            "width": 120,
+            "height": 90.25
+          },
+          "imageType": "GIF",
+          "selected": false,
+          "rotate": -1.56
+        },
+        {
+          "src": "https://i.imgur.com/ol9m6El.png",
+          "type": "Image",
+          "x": 770,
+          "y": 227,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/N0ibaBp.png",
+          "type": "Image",
+          "x": 586,
+          "y": 459,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/uNjwPmq.png",
+          "type": "Image",
+          "x": 144,
+          "y": 232,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/9wZ2ddr.png",
+          "type": "Image",
+          "x": 338,
+          "y": 303,
+          "scale": {
+            "x": 0.6617647058823529,
+            "y": 0.6617647058823529,
+            "width": 45,
+            "height": 44.338235294117645
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/MwvxbgN.png",
+          "type": "Image",
+          "x": 591,
+          "y": 303,
+          "scale": {
+            "x": 0.5882352941176471,
+            "y": 0.5882352941176471,
+            "width": 40,
+            "height": 39.411764705882355
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/y3slllk.png",
+          "type": "Image",
+          "x": 389,
+          "y": 397,
+          "scale": {
+            "x": 0.6470588235294118,
+            "y": 0.6470588235294118,
+            "width": 44,
+            "height": 43.35294117647059
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 121,
+          "y": 103,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><font color=\"#7a7575\" face=\"Fredoka One, cursive\">Swap some signs and reverse some currents...</font></div>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 17,
+      "selected": false,
+      "active": false,
+      "x": 2302,
+      "y": 131
+    },
+    {
+      "components": [
+        {
+          "src": "https://i.imgur.com/Q4rzkO0.png",
+          "type": "Image",
+          "x": -323,
+          "y": 218,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": -30,
+          "y": 337,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font face=\"Fredoka One\" color=\"#f52222\">+</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": -52,
+          "y": 296,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font face=\"Fredoka One\" color=\"#f52222\">+</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 210,
+          "y": 293,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font face=\"Fredoka One\" color=\"#f52222\">+</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": -27,
+          "y": 455,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font face=\"Fredoka One\" color=\"#f52222\">-</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": -165,
+          "y": 293,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font face=\"Fredoka One\" color=\"#f52222\">-</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 74,
+          "y": 293,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font face=\"Fredoka One\" color=\"#f52222\">-</font>",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/1Spe63O.gif",
+          "type": "Image",
+          "x": -273,
+          "y": 200,
+          "scale": {
+            "x": 0.25,
+            "y": 0.25,
+            "width": 120,
+            "height": 90.25
+          },
+          "imageType": "GIF",
+          "selected": false,
+          "rotate": -0.02
+        },
+        {
+          "src": "https://i.imgur.com/1Spe63O.gif",
+          "type": "Image",
+          "x": 205,
+          "y": 216,
+          "scale": {
+            "x": 0.25,
+            "y": 0.25,
+            "width": 120,
+            "height": 90.25
+          },
+          "imageType": "GIF",
+          "selected": false,
+          "rotate": -3.15
+        },
+        {
+          "src": "https://i.imgur.com/1Spe63O.gif",
+          "type": "Image",
+          "x": 33,
+          "y": 480,
+          "scale": {
+            "x": 0.25,
+            "y": 0.25,
+            "width": 120,
+            "height": 90.25
+          },
+          "imageType": "GIF",
+          "selected": false,
+          "rotate": -1.56
+        },
+        {
+          "src": "https://i.imgur.com/ol9m6El.png",
+          "type": "Image",
+          "x": 319,
+          "y": 253,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/N0ibaBp.png",
+          "type": "Image",
+          "x": 135,
+          "y": 485,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/uNjwPmq.png",
+          "type": "Image",
+          "x": -307,
+          "y": 258,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/9wZ2ddr.png",
+          "type": "Image",
+          "x": -113,
+          "y": 329,
+          "scale": {
+            "x": 0.6617647058823529,
+            "y": 0.6617647058823529,
+            "width": 45,
+            "height": 44.338235294117645
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/MwvxbgN.png",
+          "type": "Image",
+          "x": 140,
+          "y": 329,
+          "scale": {
+            "x": 0.5882352941176471,
+            "y": 0.5882352941176471,
+            "width": 40,
+            "height": 39.411764705882355
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/y3slllk.png",
+          "type": "Image",
+          "x": -62,
+          "y": 423,
+          "scale": {
+            "x": 0.6470588235294118,
+            "y": 0.6470588235294118,
+            "width": 44,
+            "height": 43.35294117647059
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 70,
+          "y": 23,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><font face=\"Fredoka One, cursive\"><b>KCL @ A:&nbsp;</b></font></div>",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/M7eIUJv.png",
+          "type": "Image",
+          "x": 128,
+          "y": 100,
+          "scale": {
+            "x": 0.7347826086956522,
+            "y": 0.7347826086956522,
+            "width": 338,
+            "height": 49.2304347826087
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 22,
+          "y": 233,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><font face=\"Fredoka One, cursive\" color=\"#eeeeee\"><b style=\"\">A</b></font></div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 469,
+          "y": 19,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><font face=\"Fredoka One, cursive\"><b>Ohm's Law:</b></font></div>",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/IiadIGa.png",
+          "type": "Image",
+          "x": 573,
+          "y": 106,
+          "scale": {
+            "x": 0.6216867469879518,
+            "y": 0.6216867469879518,
+            "width": 258,
+            "height": 41.65301204819277
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/YhIozL7.png",
+          "type": "Image",
+          "x": 573,
+          "y": 177,
+          "scale": {
+            "x": 0.6206896551724138,
+            "y": 0.6206896551724138,
+            "width": 270,
+            "height": 41.58620689655172
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/bqnCL4f.png",
+          "type": "Image",
+          "x": 602,
+          "y": 238,
+          "scale": {
+            "x": 0.6344410876132931,
+            "y": 0.6344410876132931,
+            "width": 210.00000000000003,
+            "height": 42.507552870090635
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 481,
+          "y": 322,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><font face=\"Fredoka One, cursive\"><b>Differential of Potential:</b></font></div>",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/OSmVLZ3.png",
+          "type": "Image",
+          "x": 571,
+          "y": 496,
+          "scale": {
+            "x": 0.7008547008547008,
+            "y": 0.7008547008547008,
+            "width": 245.99999999999997,
+            "height": 46.957264957264954
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/1j0HJBy.png",
+          "type": "Image",
+          "x": 572,
+          "y": 408,
+          "scale": {
+            "x": 0.6923076923076923,
+            "y": 0.6923076923076923,
+            "width": 243,
+            "height": 46.38461538461539
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0.79,
+      "index": 18,
+      "selected": false,
+      "active": false,
+      "x": 2634,
+      "y": 226
+    },
+    {
+      "components": [
+        {
+          "src": "https://i.imgur.com/Q4rzkO0.png",
+          "type": "Image",
+          "x": -323,
+          "y": 218,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": -30,
+          "y": 337,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font face=\"Fredoka One\" color=\"#f52222\">+</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": -52,
+          "y": 296,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font face=\"Fredoka One\" color=\"#f52222\">+</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 210,
+          "y": 293,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font face=\"Fredoka One\" color=\"#f52222\">+</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": -27,
+          "y": 455,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font face=\"Fredoka One\" color=\"#f52222\">-</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": -165,
+          "y": 293,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font face=\"Fredoka One\" color=\"#f52222\">-</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 74,
+          "y": 293,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font face=\"Fredoka One\" color=\"#f52222\">-</font>",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/1Spe63O.gif",
+          "type": "Image",
+          "x": -273,
+          "y": 200,
+          "scale": {
+            "x": 0.25,
+            "y": 0.25,
+            "width": 120,
+            "height": 90.25
+          },
+          "imageType": "GIF",
+          "selected": false,
+          "rotate": -0.02
+        },
+        {
+          "src": "https://i.imgur.com/1Spe63O.gif",
+          "type": "Image",
+          "x": 205,
+          "y": 216,
+          "scale": {
+            "x": 0.25,
+            "y": 0.25,
+            "width": 120,
+            "height": 90.25
+          },
+          "imageType": "GIF",
+          "selected": false,
+          "rotate": -3.15
+        },
+        {
+          "src": "https://i.imgur.com/1Spe63O.gif",
+          "type": "Image",
+          "x": 33,
+          "y": 480,
+          "scale": {
+            "x": 0.25,
+            "y": 0.25,
+            "width": 120,
+            "height": 90.25
+          },
+          "imageType": "GIF",
+          "selected": false,
+          "rotate": -1.56
+        },
+        {
+          "src": "https://i.imgur.com/ol9m6El.png",
+          "type": "Image",
+          "x": 319,
+          "y": 253,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/N0ibaBp.png",
+          "type": "Image",
+          "x": 135,
+          "y": 485,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/uNjwPmq.png",
+          "type": "Image",
+          "x": -307,
+          "y": 258,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/9wZ2ddr.png",
+          "type": "Image",
+          "x": -113,
+          "y": 329,
+          "scale": {
+            "x": 0.6617647058823529,
+            "y": 0.6617647058823529,
+            "width": 45,
+            "height": 44.338235294117645
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/MwvxbgN.png",
+          "type": "Image",
+          "x": 140,
+          "y": 329,
+          "scale": {
+            "x": 0.5882352941176471,
+            "y": 0.5882352941176471,
+            "width": 40,
+            "height": 39.411764705882355
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/y3slllk.png",
+          "type": "Image",
+          "x": -62,
+          "y": 423,
+          "scale": {
+            "x": 0.6470588235294118,
+            "y": 0.6470588235294118,
+            "width": 44,
+            "height": 43.35294117647059
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 22,
+          "y": 233,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><font face=\"Fredoka One, cursive\" color=\"#eeeeee\"><b style=\"\">A</b></font></div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 102,
+          "y": 44,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><font face=\"Fredoka One, cursive\"><b>Substituting everything into the KCL equation...</b></font></div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 304,
+          "y": 103,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><font color=\"#7a7575\" face=\"Fredoka One, cursive\">You get the same result.</font></div>",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/koQ3Kd1.png",
+          "type": "Image",
+          "x": 460,
+          "y": 219,
+          "scale": {
+            "x": 0.4697926059513075,
+            "y": 0.4697926059513075,
+            "width": 521,
+            "height": 75.1668169522092
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/GLk6AYL.png",
+          "type": "Image",
+          "x": 495,
+          "y": 360,
+          "scale": {
+            "x": 0.6326530612244898,
+            "y": 0.6326530612244898,
+            "width": 465,
+            "height": 87.3061224489796
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/9VNALc6.png",
+          "type": "Image",
+          "x": 595,
+          "y": 510,
+          "scale": {
+            "x": 0.7103960396039604,
+            "y": 0.7103960396039604,
+            "width": 287,
+            "height": 47.59653465346534
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0.79,
+      "index": 19,
+      "selected": false,
+      "active": false,
+      "x": 2571,
+      "y": 462
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 8,
+          "y": 36,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 34,
+          "text": "<div style=\"text-align: center;\"><font face=\"Fredoka One, cursive\"><b>Notice on how both calculations give the same voltage for VA</b></font></div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 261,
+          "y": 90,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><font color=\"#7a7575\" face=\"Fredoka One, cursive\">But different currents for V2</font></div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 252,
+          "y": 684,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><font color=\"#7a7575\" face=\"Fredoka One, cursive\">Which current is correct?</font></div>",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/5jHyfBy.png",
+          "type": "Image",
+          "x": 726,
+          "y": 664,
+          "scale": {
+            "x": 0.44565217391304346,
+            "y": 0.44565217391304346,
+            "width": 82,
+            "height": 83.78260869565217
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/q3QXCTp.png",
+          "type": "Image",
+          "x": -103,
+          "y": 182,
+          "scale": {
+            "x": 0.7631224764468372,
+            "y": 0.7631224764468372,
+            "width": 567,
+            "height": 354.85195154777927
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/lXTbjCm.png",
+          "type": "Image",
+          "x": 576,
+          "y": 178,
+          "scale": {
+            "x": 0.7786774628879892,
+            "y": 0.7786774628879892,
+            "width": 577,
+            "height": 355.85560053981106
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 155,
+          "y": 186,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><font face=\"Fredoka One, cursive\" color=\"#eeeeee\"><b style=\"\">A</b></font></div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 836,
+          "y": 186,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><font face=\"Fredoka One, cursive\" color=\"#eeeeee\"><b style=\"\">A</b></font></div>",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/YhIozL7.png",
+          "type": "Image",
+          "x": 661,
+          "y": 554,
+          "scale": {
+            "x": 0.5701149425287356,
+            "y": 0.5701149425287356,
+            "width": 248,
+            "height": 38.197701149425285
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/o30dRDV.png",
+          "type": "Image",
+          "x": 71,
+          "y": 561,
+          "scale": {
+            "x": 0.5639686684073107,
+            "y": 0.5639686684073107,
+            "width": 216.00000000000003,
+            "height": 37.78590078328982
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/EFIMgBT.png",
+          "type": "Image",
+          "x": 76,
+          "y": 619,
+          "scale": {
+            "x": 0.5734597156398105,
+            "y": 0.5734597156398105,
+            "width": 242.00000000000003,
+            "height": 38.421800947867304
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/ykAA8MN.png",
+          "type": "Image",
+          "x": 689,
+          "y": 606,
+          "scale": {
+            "x": 0.609704641350211,
+            "y": 0.609704641350211,
+            "width": 289,
+            "height": 40.85021097046413
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/OSmVLZ3.png",
+          "type": "Image",
+          "x": 406,
+          "y": 557,
+          "scale": {
+            "x": 0.5498575498575498,
+            "y": 0.5498575498575498,
+            "width": 192.99999999999997,
+            "height": 36.84045584045583
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 20,
+      "selected": false,
+      "active": false,
+      "x": 2983,
+      "y": 151
+    },
+    {
+      "components": [
+        {
+          "src": "https://i.imgur.com/ymsjlIA.gif",
+          "type": "Image",
+          "x": 35,
+          "y": 225,
+          "scale": {
+            "x": 0.5894465894465895,
+            "y": 0.5894465894465895,
+            "width": 458,
+            "height": 344.23680823680826
+          },
+          "imageType": "GIF",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/Dh5ehLv.gif",
+          "type": "Image",
+          "x": 538,
+          "y": 222,
+          "scale": {
+            "x": 0.5948387096774194,
+            "y": 0.5948387096774194,
+            "width": 461,
+            "height": 346.19612903225806
+          },
+          "imageType": "GIF",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 173,
+          "y": 610,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><span style=\"color: rgb(122, 117, 117); font-family: &quot;Fredoka One&quot;, cursive;\">Conventional<br>Flow</span></div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 656,
+          "y": 610,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><span style=\"color: rgb(122, 117, 117); font-family: &quot;Fredoka One&quot;, cursive;\">Electron<br>Flow</span></div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 111,
+          "y": 36,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 34,
+          "text": "<div style=\"text-align: center;\"><font face=\"Fredoka One, cursive\"><b>Both are valid, because it depends <br>on which direction of current you are considering <br>during your calculations...</b></font></div>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 21,
+      "selected": false,
+      "active": false,
+      "x": 2985,
+      "y": 349
+    },
+    {
+      "components": [
+        {
+          "src": "https://i.imgur.com/ymsjlIA.gif",
+          "type": "Image",
+          "x": 35,
+          "y": 225,
+          "scale": {
+            "x": 0.5894465894465895,
+            "y": 0.5894465894465895,
+            "width": 458,
+            "height": 344.23680823680826
+          },
+          "imageType": "GIF",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 188.6734693877551,
+          "y": 603.469387755102,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><span style=\"color: rgb(122, 117, 117); font-family: &quot;Fredoka One&quot;, cursive;\">Conventional<br>Flow</span></div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 80,
+          "y": 36,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 34,
+          "text": "<div style=\"text-align: center;\"><font face=\"Fredoka One, cursive\"><b>The passive sign convention defined earlier, assumes<br>conventional flow of current...</b></font></div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 608,
+          "y": 187,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><font color=\"#7a7575\" face=\"Fredoka One, cursive\">With that in mind:</font></div>",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/EFIMgBT.png",
+          "type": "Image",
+          "x": 647,
+          "y": 265,
+          "scale": {
+            "x": 0.5734597156398105,
+            "y": 0.5734597156398105,
+            "width": 242.00000000000003,
+            "height": 38.421800947867304
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 624,
+          "y": 328,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 31,
+          "text": "<div style=\"text-align: center;\"><font color=\"#7a7575\" face=\"Fredoka One, cursive\">has the correct sign.<br></font></div>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 22,
+      "selected": false,
+      "active": false,
+      "x": 2984,
+      "y": 544
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 67,
+          "y": 36,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 34,
+          "text": "<div style=\"text-align: center;\"><font face=\"Fredoka One, cursive\"><b>If you are missing information in the circuit, there is no</b></font></div><div style=\"text-align: center;\"><font face=\"Fredoka One, cursive\"><b>way to know current directions...</b></font></div>",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/Q4rzkO0.png",
+          "type": "Image",
+          "x": -325,
+          "y": 66,
+          "scale": {
+            "x": 0.4407894736842107,
+            "y": 0.4407894736842107,
+            "width": 335.0000000000001,
+            "height": 206.7302631578948
+          },
+          "imageType": "PNG",
+          "selected": false,
+          "rotate": -0.35
+        },
+        {
+          "src": "https://i.imgur.com/GBrJ01K.png",
+          "type": "Image",
+          "x": -365,
+          "y": 235,
+          "scale": {
+            "x": 0.44549763033175355,
+            "y": 0.44549763033175355,
+            "width": 564,
+            "height": 183.54502369668245
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 232,
+          "y": 163,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><ul><li><font color=\"#7a7575\" face=\"Fredoka One, cursive\">You need to pick some current directions</font></li></ul></div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 234,
+          "y": 227,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><ul><li><font color=\"#7a7575\" face=\"Fredoka One, cursive\">Assign voltages to the resistors</font></li></ul></div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 237,
+          "y": 298,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><ul><li><font color=\"#7a7575\" face=\"Fredoka One, cursive\">Get the values</font></li></ul></div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 239,
+          "y": 367,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><ul><li><font color=\"#7a7575\" face=\"Fredoka One, cursive\">And understand if your initial directions<br><div style=\"text-align: left;\">are correct</div></font></li></ul></div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 244,
+          "y": 467,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><ul><li><font color=\"#7a7575\" face=\"Fredoka One, cursive\">On the other end, voltages will always be<br><div style=\"text-align: left;\">correct</div></font></li></ul></div>",
+          "selected": false
+        },
+        {
+          "src": "https://i.imgur.com/q3QXCTp.png",
+          "type": "Image",
+          "x": -368,
+          "y": 418,
+          "scale": {
+            "x": 0.3297442799461642,
+            "y": 0.3297442799461642,
+            "width": 244.99999999999997,
+            "height": 153.33109017496633
+          },
+          "imageType": "PNG",
+          "selected": false,
+          "rotate": 0.37
+        },
+        {
+          "src": "https://i.imgur.com/lXTbjCm.png",
+          "type": "Image",
+          "x": -193,
+          "y": 379,
+          "scale": {
+            "x": 0.3684210526315789,
+            "y": 0.3684210526315789,
+            "width": 273,
+            "height": 168.36842105263156
+          },
+          "imageType": "PNG",
+          "selected": false,
+          "rotate": -0.49
+        },
+        {
+          "src": "https://i.imgur.com/ymsjlIA.gif",
+          "type": "Image",
+          "x": -69,
+          "y": 515,
+          "scale": {
+            "x": 0.36679536679536684,
+            "y": 0.36679536679536684,
+            "width": 285.00000000000006,
+            "height": 214.20849420849424
+          },
+          "imageType": "GIF",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 23,
+      "selected": false,
+      "active": false,
+      "x": 2984,
+      "y": 736
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 73,
+          "y": 36,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 34,
+          "text": "<div style=\"text-align: center;\"><font face=\"Fredoka One, cursive\"><b>With time you will be able to predict <br>some current directions just by looking at the circuit...</b></font></div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 115,
+          "y": 213,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><span style=\"color: rgb(122, 117, 117); font-family: &quot;Fredoka One&quot;, cursive;\">But it is totally fine if you struggle with that...</span><br></div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 109,
+          "y": 338,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<div style=\"text-align: center;\"><font color=\"#7a7575\" face=\"Fredoka One, cursive\">Apply the concepts from this presentation and <br>you will be fine.&nbsp;</font></div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 318,
+          "y": 545,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 72,
+          "text": "<div style=\"text-align: center;\"><font face=\"Fredoka One, cursive\"><b>Thank you!</b></font></div>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 24,
+      "selected": true,
+      "active": true,
+      "x": 3308,
+      "y": 151
+    }
+  ],
+  "background": "bg-transparent",
+  "activeSlide": {
+    "components": [
+      {
+        "TextBox": {},
+        "x": 73,
+        "y": 36,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "size": 34,
+        "text": "<div style=\"text-align: center;\"><font face=\"Fredoka One, cursive\"><b>With time you will be able to predict <br>some current directions just by looking at the circuit...</b></font></div>",
+        "selected": false
+      },
+      {
+        "TextBox": {},
+        "x": 115,
+        "y": 213,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "size": 36,
+        "text": "<div style=\"text-align: center;\"><span style=\"color: rgb(122, 117, 117); font-family: &quot;Fredoka One&quot;, cursive;\">But it is totally fine if you struggle with that...</span><br></div>",
+        "selected": false
+      },
+      {
+        "TextBox": {},
+        "x": 109,
+        "y": 338,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "size": 36,
+        "text": "<div style=\"text-align: center;\"><font color=\"#7a7575\" face=\"Fredoka One, cursive\">Apply the concepts from this presentation and <br>you will be fine.&nbsp;</font></div>",
+        "selected": false
+      },
+      {
+        "TextBox": {},
+        "x": 318,
+        "y": 545,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "size": 72,
+        "text": "<div style=\"text-align: center;\"><font face=\"Fredoka One, cursive\"><b>Thank you!</b></font></div>",
+        "selected": false
+      }
+    ],
+    "z": 0,
+    "impScale": 3,
+    "rotateX": 0,
+    "rotateY": 0,
+    "rotateZ": 0,
+    "index": 24,
+    "selected": true,
+    "active": true,
+    "x": 3308,
+    "y": 151
+  },
+  "fileName": "Circuits_1_current_direction",
+  "deckVersion": "1.0",
+  "customBackgrounds": {
+    "bgs": []
+  },
+  "overviewX": 1743,
+  "overviewY": 464.5
+}
